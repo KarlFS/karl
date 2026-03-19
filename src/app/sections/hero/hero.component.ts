@@ -1,8 +1,12 @@
 import { Component } from '@angular/core';
 
+import { TranslatePipe } from '../../shared/pipes/translate.pipe';
+
 @Component({
   selector: 'app-hero',
+  standalone: true,
+  imports: [TranslatePipe],
   templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.scss'],
+  styleUrl: './hero.component.scss',
 })
 export class HeroComponent {}

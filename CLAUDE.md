@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Angular 13 application generated with Angular CLI 13.0.2. Standard single-page application setup with TypeScript strict mode enabled.
+Angular 19 application using standalone components, signals, and the modern application builder. TypeScript strict mode enabled.
 
 ## Common Commands
 

@@ -1,5 +1,4 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { Injectable, signal } from '@angular/core';
 import { Language } from '../../models/language.model';
 
 type TranslationMap = Record<string, string>;
@@ -192,19 +191,15 @@ const TRANSLATIONS: Translations = {
 
 @Injectable({ providedIn: 'root' })
 export class TranslationService {
-  private readonly langSubject = new BehaviorSubject<Language>('de');
+  private readonly _lang = signal<Language>('de');
 
-  readonly currentLang$ = this.langSubject.asObservable();
-
-  get currentLang(): Language {
-    return this.langSubject.getValue();
-  }
+  readonly currentLang = this._lang.asReadonly();
 
   setLanguage(lang: Language): void {
-    this.langSubject.next(lang);
+    this._lang.set(lang);
   }
 
   translate(key: string): string {
-    return TRANSLATIONS[this.currentLang][key] ?? key;
+    return TRANSLATIONS[this._lang()][key] ?? key;
   }
 }
