@@ -12,10 +12,10 @@ const TRANSLATIONS: Translations = {
     'nav.projects': 'Projekte',
     'nav.contact':  'Kontakt',
 
-    'hero.greeting': 'Hallo, ich bin',
-    'hero.title':    'Softwareentwickler & Unternehmer',
-    'hero.subtitle': 'Fullstack-Entwicklung mit Angular, C# und Java · Berlin',
-    'hero.cta':      'Kontakt aufnehmen',
+    'title.greeting': 'Hallo, ich bin',
+    'title.title':    'Softwareentwickler & Unternehmer',
+    'title.subtitle': 'Fullstack-Entwicklung mit Angular, C# und Java · Berlin',
+    'title.cta':      'Kontakt aufnehmen',
 
     'about.title':             'Über mich',
     'about.text1':             'Diplom-Informatiker mit über 20 Jahren Erfahrung in der professionellen Softwareentwicklung. Mein Schwerpunkt liegt auf der Fullstack-Entwicklung moderner Webanwendungen mit Angular, C# (.NET) und Java.',
@@ -73,10 +73,10 @@ const TRANSLATIONS: Translations = {
     'nav.projects':  'Projects',
     'nav.contact':   'Contact',
 
-    'hero.greeting': "Hello, I'm",
-    'hero.title':    'Software Developer & Entrepreneur',
-    'hero.subtitle': 'Fullstack Development with Angular, C# and Java · Berlin',
-    'hero.cta':      'Get in touch',
+    'title.greeting': "Hello, I'm",
+    'title.title':    'Software Developer & Entrepreneur',
+    'title.subtitle': 'Fullstack Development with Angular, C# and Java · Berlin',
+    'title.cta':      'Get in touch',
 
     'about.title':           'About me',
     'about.text1':           'Diploma computer scientist with over 20 years of professional software development experience. My focus is on fullstack development of modern web applications using Angular, C# (.NET) and Java.',
@@ -134,10 +134,10 @@ const TRANSLATIONS: Translations = {
     'nav.projects':  'Projekty',
     'nav.contact':   'Kontakt',
 
-    'hero.greeting': 'Witajće, sym',
-    'hero.title':    'Softwaredeweloper & Předewzaćel',
-    'hero.subtitle': 'Fullstack-wuwiwanje z Angular, C# a Java · Berlin',
-    'hero.cta':      'Kontaktować',
+    'title.greeting': 'Witajće, sym',
+    'title.title':    'Softwaredeweloper & Předewzaćel',
+    'title.subtitle': 'Fullstack-wuwiwanje z Angular, C# a Java · Berlin',
+    'title.cta':      'Kontaktować',
 
     'about.title':           'Wo mni',
     'about.text1':           'Diplom-informatičar z wjace hač 20 lětami nazhonjenja w profesionalnym softwarowym wuwiwanju. Mój ćežišćo leži na fullstack-wuwiwanju modernych webowych nałoženjow z Angular, C# (.NET) a Java.',

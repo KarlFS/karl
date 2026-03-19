@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { HeroComponent }      from '../../sections/hero/hero.component';
+import { TitleComponent }     from '../../sections/title/title.component';
 import { AboutComponent }     from '../../sections/about/about.component';
 import { OfferingsComponent } from '../../sections/offerings/offerings.component';
 import { SkillsComponent }    from '../../sections/skills/skills.component';
@@ -11,7 +11,7 @@ import { ContactComponent }   from '../../sections/contact/contact.component';
   selector: 'app-home',
   standalone: true,
   imports: [
-    HeroComponent,
+    TitleComponent,
     AboutComponent,
     OfferingsComponent,
     SkillsComponent,
