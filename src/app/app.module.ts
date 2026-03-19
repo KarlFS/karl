@@ -16,6 +16,9 @@ import { SkillsComponent }    from './sections/skills/skills.component';
 import { ProjectsComponent }  from './sections/projects/projects.component';
 import { ContactComponent }   from './sections/contact/contact.component';
 
+import { HomeComponent }      from './pages/home/home.component';
+import { ImpressumComponent } from './pages/impressum/impressum.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +30,8 @@ import { ContactComponent }   from './sections/contact/contact.component';
     SkillsComponent,
     ProjectsComponent,
     ContactComponent,
+    HomeComponent,
+    ImpressumComponent,
   ],
   imports: [
     BrowserModule,

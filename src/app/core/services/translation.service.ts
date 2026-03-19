@@ -60,7 +60,11 @@ const TRANSLATIONS: Translations = {
     'contact.label.location':   'Standort',
     'contact.availability':     'Verfügbar für Projekte und Aufträge',
 
-    'footer.rights': 'Alle Rechte vorbehalten.',
+    'footer.rights':    'Alle Rechte vorbehalten.',
+    'footer.impressum': 'Impressum',
+
+    'impressum.back':      'Zurück',
+    'impressum.legalNote': 'Diese Seite enthält Pflichtangaben gemäß § 5 TMG.',
   },
 
   en: {
@@ -117,7 +121,11 @@ const TRANSLATIONS: Translations = {
     'contact.label.location': 'Location',
     'contact.availability':   'Available for projects and assignments',
 
-    'footer.rights': 'All rights reserved.',
+    'footer.rights':    'All rights reserved.',
+    'footer.impressum': 'Legal Notice',
+
+    'impressum.back':      'Back',
+    'impressum.legalNote': 'This page contains mandatory information pursuant to § 5 TMG (German Telemedia Act).',
   },
 
   hsb: {
@@ -174,7 +182,11 @@ const TRANSLATIONS: Translations = {
     'contact.label.location': 'Městno',
     'contact.availability':   'Přistupny za projekty a nadawki',
 
-    'footer.rights': 'Wšě prawa wobchowane.',
+    'footer.rights':    'Wšě prawa wobchowane.',
+    'footer.impressum': 'Impresum',
+
+    'impressum.back':      'Wróćo',
+    'impressum.legalNote': 'Tuta strona wobsahuje winowatostne podaća po § 5 TMG.',
   },
 };
 
