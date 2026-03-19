@@ -55,7 +55,6 @@ const TRANSLATIONS: Translations = {
     'contact.title':            'Kontakt',
     'contact.subtitle':         'Ich freue mich über Ihre Nachricht',
     'contact.label.email':      'E-Mail',
-    'contact.label.phone':      'Telefon',
     'contact.label.location':   'Standort',
     'contact.availability':     'Verfügbar für Projekte und Aufträge',
 
@@ -116,7 +115,6 @@ const TRANSLATIONS: Translations = {
     'contact.title':          'Contact',
     'contact.subtitle':       'I look forward to hearing from you',
     'contact.label.email':    'Email',
-    'contact.label.phone':    'Phone',
     'contact.label.location': 'Location',
     'contact.availability':   'Available for projects and assignments',
 
@@ -177,7 +175,6 @@ const TRANSLATIONS: Translations = {
     'contact.title':          'Kontakt',
     'contact.subtitle':       'Wjeselim so na wašu powěsć',
     'contact.label.email':    'E-Mail',
-    'contact.label.phone':    'Telefon',
     'contact.label.location': 'Městno',
     'contact.availability':   'Přistupny za projekty a nadawki',
 
