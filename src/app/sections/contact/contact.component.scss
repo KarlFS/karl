@@ -50,14 +50,14 @@
   transition: all 0.3s;
 
   &[href]:hover {
-    background: rgba(67, 97, 238, 0.1);
-    border-color: rgba(67, 97, 238, 0.25);
+    background: rgba(99, 102, 241, 0.1);
+    border-color: rgba(99, 102, 241, 0.25);
     transform: translateY(-3px);
   }
 
   &__icon {
     font-size: 1.25rem;
-    color: #4361ee;
+    color: #818cf8;
     margin-bottom: 0.5rem;
   }
 

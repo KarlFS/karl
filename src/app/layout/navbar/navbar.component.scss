@@ -21,7 +21,7 @@
   &__brand {
     font-size: 1.05rem;
     font-weight: 700;
-    color: #0a0a0a;
+    color: #0f172a;
     text-decoration: none;
     letter-spacing: -0.02em;
   }
@@ -40,7 +40,7 @@
     transition: color 0.2s;
 
     &:hover {
-      color: #4361ee;
+      color: #6366f1;
     }
   }
 
@@ -68,7 +68,7 @@
       display: block;
       width: 22px;
       height: 2px;
-      background: #0a0a0a;
+      background: #0f172a;
       border-radius: 2px;
       transition: transform 0.25s, opacity 0.25s;
 
@@ -101,14 +101,14 @@
   font-family: inherit;
 
   &:hover {
-    color: #4361ee;
-    border-color: rgba(67, 97, 238, 0.4);
+    color: #6366f1;
+    border-color: rgba(99, 102, 241, 0.4);
   }
 
   &.active {
-    color: #4361ee;
-    border-color: #4361ee;
-    background: rgba(67, 97, 238, 0.08);
+    color: #6366f1;
+    border-color: #6366f1;
+    background: rgba(99, 102, 241, 0.08);
   }
 }
 
