@@ -19,6 +19,9 @@
   }
 
   &__brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     font-size: 1.05rem;
     font-weight: 700;
     color: #0f172a;

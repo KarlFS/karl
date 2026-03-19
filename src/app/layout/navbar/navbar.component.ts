@@ -2,6 +2,7 @@ import { Component, inject, signal } from '@angular/core';
 
 import { TranslationService } from '../../core/services/translation.service';
 import { TranslatePipe } from '../../shared/pipes/translate.pipe';
+import { KIconComponent } from '../../shared/components/k-icon/k-icon.component';
 import { Language } from '../../models/language.model';
 
 interface LanguageOption {
@@ -12,7 +13,7 @@ interface LanguageOption {
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [TranslatePipe],
+  imports: [TranslatePipe, KIconComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
 })

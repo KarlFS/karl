@@ -44,6 +44,12 @@
     animation: fadeInUp 0.8s ease both;
   }
 
+  &__logo {
+    display: block;
+    margin-bottom: 2rem;
+    filter: drop-shadow(0 0 24px rgba(129, 140, 248, 0.4));
+  }
+
   &__greeting {
     color: #818cf8;
     font-size: 0.9rem;
