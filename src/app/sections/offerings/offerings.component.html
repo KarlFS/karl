@@ -1,0 +1,13 @@
+<section class="offerings section section--dark" id="offerings">
+  <div class="container">
+    <h2 class="section-title section-title--light">{{ 'offerings.title' | translate }}</h2>
+    <p class="offerings__subtitle">{{ 'offerings.subtitle' | translate }}</p>
+    <div class="offerings__grid">
+      <div class="offering-card" *ngFor="let offering of offerings">
+        <span class="offering-card__icon">{{ offering.icon }}</span>
+        <h3 class="offering-card__title">{{ offering.titleKey | translate }}</h3>
+        <p class="offering-card__description">{{ offering.descriptionKey | translate }}</p>
+      </div>
+    </div>
+  </div>
+</section>

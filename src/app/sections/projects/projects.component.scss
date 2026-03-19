@@ -1,0 +1,117 @@
+.projects {
+  &__subtitle {
+    color: #6b7280;
+    margin-top: 0.75rem;
+    font-size: 1rem;
+  }
+}
+
+.timeline {
+  margin-top: 3.5rem;
+  position: relative;
+  padding-left: 2rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, #4361ee, transparent);
+  }
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 3rem;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &__dot {
+    position: absolute;
+    left: -2rem;
+    top: 6px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #4361ee;
+    transform: translateX(calc(-50% + 0.5px));
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+  }
+
+  &__card {
+    background: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    padding: 1.75rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+
+    &:hover {
+      border-color: rgba(67, 97, 238, 0.2);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  &__period {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #4361ee;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &__company {
+    font-size: 0.75rem;
+    color: #9ca3af;
+    font-weight: 500;
+  }
+
+  &__name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0a0a0a;
+    margin: 0 0 0.25rem;
+    letter-spacing: -0.02em;
+  }
+
+  &__role {
+    font-size: 0.8rem;
+    color: #6b7280;
+    font-weight: 500;
+    margin: 0 0 1rem;
+  }
+
+  &__description {
+    font-size: 0.9rem;
+    color: #4b5563;
+    line-height: 1.75;
+    margin: 0 0 1.25rem;
+  }
+
+  &__tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+}
+
+.tech-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #4361ee;
+  background: rgba(67, 97, 238, 0.08);
+  border: 1px solid rgba(67, 97, 238, 0.15);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}

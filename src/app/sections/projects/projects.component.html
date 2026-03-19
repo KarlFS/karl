@@ -1,0 +1,23 @@
+<section class="projects section" id="projects">
+  <div class="container">
+    <h2 class="section-title">{{ 'projects.title' | translate }}</h2>
+    <p class="projects__subtitle">{{ 'projects.subtitle' | translate }}</p>
+    <div class="timeline">
+      <div class="timeline-item" *ngFor="let project of projects">
+        <div class="timeline-item__dot"></div>
+        <div class="timeline-item__card">
+          <div class="timeline-item__header">
+            <span class="timeline-item__period">{{ project.period }}</span>
+            <span class="timeline-item__company">{{ project.company }}</span>
+          </div>
+          <h3 class="timeline-item__name">{{ project.name }}</h3>
+          <p class="timeline-item__role">{{ project.role }}</p>
+          <p class="timeline-item__description">{{ getDescription(project) }}</p>
+          <div class="timeline-item__tech">
+            <span class="tech-tag" *ngFor="let tag of project.tech">{{ tag }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
