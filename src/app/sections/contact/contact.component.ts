@@ -11,7 +11,7 @@ import { TranslatePipe } from '../../shared/pipes/translate.pipe';
 })
 export class ContactComponent {
   // Stored reversed to avoid plain-text scraping of the source/bundle
-  private readonly _u = 'ezlohs';
+  private readonly _u = 'ezlohcs';
   private readonly _d = 'moc.liamnotorp';
 
   private get _email(): string {
