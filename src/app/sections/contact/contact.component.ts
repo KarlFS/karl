@@ -9,4 +9,16 @@ import { TranslatePipe } from '../../shared/pipes/translate.pipe';
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
-export class ContactComponent {}
+export class ContactComponent {
+  // Stored reversed to avoid plain-text scraping of the source/bundle
+  private readonly _u = 'ezlohs';
+  private readonly _d = 'moc.liamnotorp';
+
+  private get _email(): string {
+    const rev = (s: string) => s.split('').reverse().join('');
+    return `${rev(this._u)}@${rev(this._d)}`;
+  }
+
+  protected readonly mailto  = `mailto:${this._email}`;
+  protected readonly display = this._email;
+}
