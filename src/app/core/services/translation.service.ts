@@ -12,9 +12,8 @@ const TRANSLATIONS: Translations = {
     'nav.projects': 'Projekte',
     'nav.contact':  'Kontakt',
 
-    'title.greeting': 'Hallo, ich bin',
     'title.title':    'Softwareentwickler & Unternehmer',
-    'title.subtitle': 'Fullstack-Entwicklung mit Angular, C# und Java · Berlin',
+    'title.subtitle': 'IT-Beratung und Entwicklung',
     'title.cta':      'Kontakt aufnehmen',
 
     'about.title':             'Über mich',
@@ -72,9 +71,8 @@ const TRANSLATIONS: Translations = {
     'nav.projects':  'Projects',
     'nav.contact':   'Contact',
 
-    'title.greeting': "Hello, I'm",
     'title.title':    'Software Developer & Entrepreneur',
-    'title.subtitle': 'Fullstack Development with Angular, C# and Java · Berlin',
+    'title.subtitle': 'IT Consulting and Development',
     'title.cta':      'Get in touch',
 
     'about.title':           'About me',
@@ -132,9 +130,8 @@ const TRANSLATIONS: Translations = {
     'nav.projects':  'Projekty',
     'nav.contact':   'Kontakt',
 
-    'title.greeting': 'Witajće, sym',
     'title.title':    'Softwaredeweloper & Předewzaćel',
-    'title.subtitle': 'Fullstack-wuwiwanje z Angular, C# a Java · Berlin',
+    'title.subtitle': 'IT-poradźowanje a wuwiwanje',
     'title.cta':      'Kontaktować',
 
     'about.title':           'Wo mni',
