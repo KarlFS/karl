@@ -1,3 +1,8 @@
+// Breakpoint variables — use these instead of magic numbers throughout components
+$bp-sm: 560px;
+$bp-md: 768px;
+$bp-lg: 900px;
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -36,6 +41,11 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+// Scraping protection: characters live only in data-c attributes, rendered via CSS
+.obf::before {
+  content: attr(data-c);
 }
 
 .section-title {

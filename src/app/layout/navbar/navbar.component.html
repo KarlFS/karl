@@ -15,8 +15,11 @@
       <a class="navbar__link" href="#about"     (click)="closeMenu()">{{ 'nav.about'     | translate }}</a>
       <a class="navbar__link" href="#offerings" (click)="closeMenu()">{{ 'nav.offerings' | translate }}</a>
       <a class="navbar__link" href="#skills"    (click)="closeMenu()">{{ 'nav.skills'    | translate }}</a>
-      <a class="navbar__link" href="#projects"  (click)="closeMenu()">{{ 'nav.projects'  | translate }}</a>
-      <a class="navbar__link" href="#contact"   (click)="closeMenu()">{{ 'nav.contact'   | translate }}</a>
+      <a class="navbar__link" href="#contact" (click)="closeMenu()">{{ 'nav.contact' | translate }}</a>
+      <div class="navbar__legal">
+        <button class="navbar__link navbar__link--legal" (click)="navigateLegal('/impressum')">{{ 'footer.impressum' | translate }}</button>
+        <button class="navbar__link navbar__link--legal" (click)="navigateLegal('/datenschutz')">{{ 'footer.datenschutz' | translate }}</button>
+      </div>
 
       <div class="navbar__lang">
         @for (option of languageOptions; track option.code) {

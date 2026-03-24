@@ -1,4 +1,5 @@
-import { Component, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { TranslationService } from '../../core/services/translation.service';
 import { TranslatePipe } from '../../shared/pipes/translate.pipe';
@@ -13,12 +14,14 @@ interface LanguageOption {
 @Component({
   selector: 'app-navbar',
   standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [TranslatePipe, KIconComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent {
   protected readonly translationService = inject(TranslationService);
+  private readonly router = inject(Router);
 
   readonly languageOptions: LanguageOption[] = [
     { code: 'de',  label: 'DE' },
@@ -39,5 +42,10 @@ export class NavbarComponent {
 
   closeMenu(): void {
     this.isMenuOpen.set(false);
+  }
+
+  navigateLegal(path: string): void {
+    this.closeMenu();
+    this.router.navigate([path]);
   }
 }

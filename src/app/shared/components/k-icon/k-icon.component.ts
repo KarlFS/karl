@@ -1,14 +1,13 @@
-import { Component, input } from '@angular/core';
+import { Component, ChangeDetectionStrategy, input } from '@angular/core';
 
 let uid = 0;
 
 @Component({
   selector: 'app-k-icon',
   standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <svg
-      [attr.width]="size()"
-      [attr.height]="size()"
       viewBox="0 0 100 100"
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden="true"
@@ -25,10 +24,18 @@ let uid = 0;
       />
     </svg>
   `,
-  styles: [':host { display: contents; }'],
+  styles: [
+    ':host { display: inline-flex; align-items: center; flex-shrink: 0; }',
+    'svg { width: 100%; height: 100%; }',
+  ],
+  host: {
+    '[style.width.px]': 'size() ?? null',
+    '[style.height.px]': 'size() ?? null',
+  },
 })
 export class KIconComponent {
-  readonly size = input(40);
+  // Size in px — omit to control via CSS (e.g. width/height on the host element)
+  readonly size = input<number>();
 
   protected readonly gradId = `k-grad-${++uid}`;
   protected readonly fill = `url(#${this.gradId})`;

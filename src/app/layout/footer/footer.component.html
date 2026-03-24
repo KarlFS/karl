@@ -3,7 +3,9 @@
     <p>
       © {{ currentYear }} Karl Scholze &nbsp;·&nbsp; {{ 'footer.rights' | translate }}
       &nbsp;·&nbsp;
-      <a routerLink="/impressum">{{ 'footer.impressum' | translate }}</a>
+      <button class="footer__link" (click)="navigate('/impressum')">{{ 'footer.impressum' | translate }}</button>
+      &nbsp;·&nbsp;
+      <button class="footer__link" (click)="navigate('/datenschutz')">{{ 'footer.datenschutz' | translate }}</button>
     </p>
   </div>
 </footer>

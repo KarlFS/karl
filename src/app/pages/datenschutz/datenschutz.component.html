@@ -1,0 +1,124 @@
+<main class="datenschutz">
+  <div class="datenschutz__container container">
+
+    <a class="datenschutz__back" routerLink="/">&#8592; {{ 'datenschutz.back' | translate }}</a>
+
+    <h1 class="datenschutz__title">Datenschutzerklärung</h1>
+
+    <!-- 1. Verantwortlicher -->
+    <section class="datenschutz__section">
+      <h2>1. Verantwortlicher</h2>
+      <p>
+        Verantwortlicher für die Verarbeitung personenbezogener Daten auf dieser Website ist:
+      </p>
+      <p>
+        <app-obfuscated [codes]="nameCodes" /><br>
+        <app-obfuscated [codes]="streetCodes" /><br>
+        <app-obfuscated [codes]="cityCodes" /><br>
+        <app-obfuscated [codes]="countryCodes" /><br>
+        Telefon: <app-obfuscated [codes]="phoneCodes" />
+      </p>
+    </section>
+
+    <!-- 2. Zugriffsdaten (Server-Logfiles) -->
+    <section class="datenschutz__section">
+      <h2>2. Zugriffsdaten (Server-Logfiles)</h2>
+      <p>
+        Beim Aufruf dieser Website werden durch den Webserver automatisch Informationen erfasst,
+        die Ihr Browser übermittelt. Dazu können insbesondere gehören: IP-Adresse, Datum und
+        Uhrzeit des Abrufs, aufgerufene Seite/Datei, übertragene Datenmenge, Herkunfts-URL
+        (Referrer), sofern übermittelt, sowie verwendeter Browser und Betriebssystem.
+      </p>
+      <p>
+        Diese Daten werden ausschließlich zur Sicherstellung des technischen Betriebs, zur
+        Verbesserung des Angebots sowie zur Gewährleistung der IT-Sicherheit verarbeitet.
+        Rechtsgrundlage ist das berechtigte Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO, die
+        Website sicher und funktionsfähig bereitzustellen.
+      </p>
+      <p>
+        Die Logdaten werden nur so lange gespeichert, wie es für die genannten Zwecke erforderlich
+        ist, und anschließend gelöscht oder anonymisiert.
+      </p>
+    </section>
+
+    <!-- 3. Cookies -->
+    <section class="datenschutz__section">
+      <h2>3. Cookies</h2>
+      <p>
+        Auf dieser Website werden keine Cookies zu Analyse-, Tracking- oder Werbezwecken
+        eingesetzt. Es können technisch notwendige Cookies verwendet werden, die für den Betrieb
+        der Website erforderlich sind. Diese enthalten in der Regel keine personenbezogenen Daten
+        und werden nach Ende der Sitzung gelöscht.
+      </p>
+    </section>
+
+    <!-- 4. Kontaktaufnahme -->
+    <section class="datenschutz__section">
+      <h2>4. Kontaktaufnahme</h2>
+      <p>
+        Auf dieser Website stehen keine Kontaktformulare zur Verfügung. Wenn Sie freiwillig per
+        Telefon Kontakt aufnehmen, werden die von Ihnen übermittelten Daten ausschließlich zur
+        Bearbeitung Ihrer Anfrage verarbeitet. Rechtsgrundlage ist je nach Inhalt der Anfrage
+        Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung oder -durchführung) oder Art. 6 Abs. 1
+        lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen).
+      </p>
+      <p>
+        Die Daten werden gelöscht, sobald sie für die Bearbeitung Ihrer Anfrage nicht mehr
+        erforderlich sind, soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+      </p>
+    </section>
+
+    <!-- 5. Weitergabe von Daten -->
+    <section class="datenschutz__section">
+      <h2>5. Weitergabe von Daten</h2>
+      <p>
+        Eine Übermittlung personenbezogener Daten an Dritte findet nicht statt, es sei denn, dies
+        ist gesetzlich vorgeschrieben, zur Durchsetzung von Rechtsansprüchen erforderlich oder zur
+        Erfüllung vertraglicher Pflichten notwendig.
+      </p>
+    </section>
+
+    <!-- 6. Ihre Rechte -->
+    <section class="datenschutz__section">
+      <h2>6. Ihre Rechte</h2>
+      <p>
+        Sie haben im Rahmen der gesetzlichen Vorgaben folgende Rechte hinsichtlich Ihrer
+        personenbezogenen Daten:
+      </p>
+      <ul>
+        <li>Recht auf Auskunft (Art. 15 DSGVO)</li>
+        <li>Recht auf Berichtigung (Art. 16 DSGVO)</li>
+        <li>Recht auf Löschung (Art. 17 DSGVO)</li>
+        <li>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+        <li>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</li>
+        <li>Recht auf Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)</li>
+      </ul>
+      <p>
+        Zur Ausübung dieser Rechte können Sie sich jederzeit an die oben angegebenen
+        Kontaktdaten wenden.
+      </p>
+    </section>
+
+    <!-- 7. Beschwerderecht -->
+    <section class="datenschutz__section">
+      <h2>7. Beschwerderecht bei einer Aufsichtsbehörde</h2>
+      <p>
+        Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die
+        Verarbeitung Ihrer personenbezogenen Daten zu beschweren, wenn Sie der Ansicht sind,
+        dass diese gegen die DSGVO verstößt.
+      </p>
+    </section>
+
+    <!-- 8. Änderungen -->
+    <section class="datenschutz__section">
+      <h2>8. Änderungen dieser Datenschutzerklärung</h2>
+      <p>
+        Ich behalte mir vor, diese Datenschutzerklärung anzupassen, damit sie stets den aktuellen
+        rechtlichen Anforderungen entspricht oder Änderungen meiner Leistungen in der
+        Datenschutzerklärung umzusetzen. Für Ihren erneuten Besuch gilt dann die jeweils aktuelle
+        Fassung.
+      </p>
+    </section>
+
+  </div>
+</main>

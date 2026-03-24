@@ -23,6 +23,10 @@ export const SKILL_GROUPS: SkillGroup[] = [
   },
   {
     labelKey: 'skills.tools',
-    skills: ['Scrum', 'Kanban', 'TDD', 'CI/CD', 'Git', 'SVN', 'TFS', 'REST', 'SOAP', 'UML'],
+    skills: ['Scrum', 'Kanban', 'TDD', 'CI/CD', 'Git', 'SVN', 'TFS', 'REST', 'SOAP', 'UML', 'DDD Domain Driven Design', 'Arc42', 'Software-Architektur'],
+  },
+  {
+    labelKey: 'skills.ai',
+    skills: ['Prompt Engineering', 'Claude Code', 'AI Feature Integration', 'LLM APIs', 'Claude API', 'ChatGPT / OpenAI API', 'Agentic Workflows'],
   },
 ];

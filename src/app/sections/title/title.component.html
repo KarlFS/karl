@@ -4,10 +4,10 @@
     <div class="title__shape title__shape--2"></div>
   </div>
   <div class="title__container">
-    <app-k-icon class="title__logo" [size]="80" />
-    <h1 class="title__name">Karl Scholze</h1>
-    <p class="title__title">{{ 'title.title' | translate }}</p>
-    <p class="title__subtitle">{{ 'title.subtitle' | translate }}</p>
+    <h1 class="title__name" aria-label="Karl Scholze">
+      <app-k-icon class="title__logo" />arl Scholze
+    </h1>
+    <p class="title__title">{{ 'title.subtitle' | translate }}</p>
     <a href="#contact" class="title__cta">{{ 'title.cta' | translate }}</a>
   </div>
 </section>

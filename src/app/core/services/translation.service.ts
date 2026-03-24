@@ -9,7 +9,6 @@ const TRANSLATIONS: Translations = {
     'nav.about':    'Über mich',
     'nav.offerings': 'Leistungen',
     'nav.skills':   'Technologien',
-    'nav.projects': 'Projekte',
     'nav.contact':  'Kontakt',
 
     'title.title':    'Softwareentwickler & Unternehmer',
@@ -37,8 +36,8 @@ const TRANSLATIONS: Translations = {
     'offerings.java.desc':           'Skalierbare Serveranwendungen mit Java EE, JAX-RS, JPA und modernen Build-Tools.',
     'offerings.mobile.title':        'Mobile Development',
     'offerings.mobile.desc':         'Native iOS-Apps (Objective-C / Swift) und Cross-Platform-Lösungen mit Unity3D.',
-    'offerings.scrum.title':         'Scrum & Agile',
-    'offerings.scrum.desc':          'Einführung und Begleitung agiler Prozesse als erfahrener Scrum Master.',
+    'offerings.architecture.title':  'Software-Architektur & -Entwurf',
+    'offerings.architecture.desc':   'Konzeption und Dokumentation nachhaltiger Softwarearchitekturen mit Arc42, DDD und bewährten Architekturmustern.',
 
     'skills.title':     'Technologien & Skills',
     'skills.languages': 'Programmiersprachen',
@@ -47,9 +46,7 @@ const TRANSLATIONS: Translations = {
     'skills.mobile':    'Mobile & 3D',
     'skills.databases': 'Datenbanken',
     'skills.tools':     'Methoden & Tools',
-
-    'projects.title':    'Projekterfahrung',
-    'projects.subtitle': 'Ausgewählte Projekte aus über 20 Jahren',
+    'skills.ai':        'KI & Prompting',
 
     'contact.title':            'Kontakt',
     'contact.subtitle':         'Ich freue mich über Ihre Nachricht',
@@ -57,18 +54,20 @@ const TRANSLATIONS: Translations = {
     'contact.label.location':   'Standort',
     'contact.availability':     'Verfügbar für Projekte und Aufträge',
 
-    'footer.rights':    'Alle Rechte vorbehalten.',
-    'footer.impressum': 'Impressum',
+    'footer.rights':       'Alle Rechte vorbehalten.',
+    'footer.impressum':    'Impressum',
+    'footer.datenschutz':  'Datenschutz',
 
     'impressum.back':      'Zurück',
     'impressum.legalNote': 'Diese Seite enthält Pflichtangaben gemäß § 5 TMG.',
+
+    'datenschutz.back': 'Zurück',
   },
 
   en: {
     'nav.about':     'About',
     'nav.offerings': 'Services',
     'nav.skills':    'Skills',
-    'nav.projects':  'Projects',
     'nav.contact':   'Contact',
 
     'title.title':    'Software Developer & Entrepreneur',
@@ -96,8 +95,8 @@ const TRANSLATIONS: Translations = {
     'offerings.java.desc':           'Scalable server applications with Java EE, JAX-RS, JPA and modern build tools.',
     'offerings.mobile.title':        'Mobile Development',
     'offerings.mobile.desc':         'Native iOS apps (Objective-C / Swift) and cross-platform solutions with Unity3D.',
-    'offerings.scrum.title':         'Scrum & Agile',
-    'offerings.scrum.desc':          'Introduction and facilitation of agile processes as an experienced Scrum Master.',
+    'offerings.architecture.title':  'Software Architecture & Design',
+    'offerings.architecture.desc':   'Design and documentation of sustainable software architectures using Arc42, DDD and established architectural patterns.',
 
     'skills.title':     'Technologies & Skills',
     'skills.languages': 'Programming Languages',
@@ -106,9 +105,7 @@ const TRANSLATIONS: Translations = {
     'skills.mobile':    'Mobile & 3D',
     'skills.databases': 'Databases',
     'skills.tools':     'Methods & Tools',
-
-    'projects.title':    'Project Experience',
-    'projects.subtitle': 'Selected projects from over 20 years',
+    'skills.ai':        'AI & Prompting',
 
     'contact.title':          'Contact',
     'contact.subtitle':       'I look forward to hearing from you',
@@ -116,18 +113,20 @@ const TRANSLATIONS: Translations = {
     'contact.label.location': 'Location',
     'contact.availability':   'Available for projects and assignments',
 
-    'footer.rights':    'All rights reserved.',
-    'footer.impressum': 'Legal Notice',
+    'footer.rights':      'All rights reserved.',
+    'footer.impressum':   'Legal Notice',
+    'footer.datenschutz': 'Privacy Policy',
 
     'impressum.back':      'Back',
     'impressum.legalNote': 'This page contains mandatory information pursuant to § 5 TMG (German Telemedia Act).',
+
+    'datenschutz.back': 'Back',
   },
 
   hsb: {
     'nav.about':     'Wo mni',
     'nav.offerings': 'Słužby',
     'nav.skills':    'Technologije',
-    'nav.projects':  'Projekty',
     'nav.contact':   'Kontakt',
 
     'title.title':    'Softwaredeweloper & Předewzaćel',
@@ -155,8 +154,8 @@ const TRANSLATIONS: Translations = {
     'offerings.java.desc':           'Skalujomne serwerowe nałoženja z Java EE, JAX-RS, JPA a modernymi nastrójami.',
     'offerings.mobile.title':        'Mobilne wuwiwanje',
     'offerings.mobile.desc':         'Natiwne iOS-nałoženja (Objective-C / Swift) a crossplatformowe rozrisanja z Unity3D.',
-    'offerings.scrum.title':         'Scrum & Agile',
-    'offerings.scrum.desc':          'Zawjedźenje a přewodźenje agilnych procesow jako nazhonjeny Scrum Master.',
+    'offerings.architecture.title':  'Softwarowa architektura & -naćisk',
+    'offerings.architecture.desc':   'Koncepcija a dokumentacija trajnych softwarowých architekturow z Arc42, DDD a přepruwowanymi architekturowymi wotwarami.',
 
     'skills.title':     'Technologije & Zhontonosće',
     'skills.languages': 'Programowanske rěče',
@@ -165,9 +164,7 @@ const TRANSLATIONS: Translations = {
     'skills.mobile':    'Mobilne & 3D',
     'skills.databases': 'Datowe banki',
     'skills.tools':     'Metody & Nastroje',
-
-    'projects.title':    'Projektowe nazhonjenje',
-    'projects.subtitle': 'Wubrané projekty z wjace hač 20 lět',
+    'skills.ai':        'KI & Promptowanje',
 
     'contact.title':          'Kontakt',
     'contact.subtitle':       'Wjeselim so na wašu powěsć',
@@ -175,11 +172,14 @@ const TRANSLATIONS: Translations = {
     'contact.label.location': 'Městno',
     'contact.availability':   'Přistupny za projekty a nadawki',
 
-    'footer.rights':    'Wšě prawa wobchowane.',
-    'footer.impressum': 'Impresum',
+    'footer.rights':      'Wšě prawa wobchowane.',
+    'footer.impressum':   'Impresum',
+    'footer.datenschutz': 'Škitanje datow',
 
     'impressum.back':      'Wróćo',
     'impressum.legalNote': 'Tuta strona wobsahuje winowatostne podaća po § 5 TMG.',
+
+    'datenschutz.back': 'Wróćo',
   },
 };
 

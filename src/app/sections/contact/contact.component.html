@@ -4,16 +4,19 @@
     <p class="contact__subtitle">{{ 'contact.subtitle' | translate }}</p>
 
     <div class="contact__grid">
-      <a class="contact-card" [href]="mailto">
+      <a class="contact-card"
+         (mouseenter)="revealMailto($event)"
+         (focus)="revealMailto($event)"
+         (click)="revealMailto($event)">
         <span class="contact-card__icon">✉</span>
         <span class="contact-card__label">{{ 'contact.label.email' | translate }}</span>
-        <span class="contact-card__value">{{ display }}</span>
+        <span class="contact-card__value"><app-obfuscated [codes]="emailCodes" /></span>
       </a>
 
       <div class="contact-card">
         <span class="contact-card__icon">◎</span>
         <span class="contact-card__label">{{ 'contact.label.location' | translate }}</span>
-        <span class="contact-card__value">Berlin, Deutschland</span>
+        <span class="contact-card__value">Bautzen, Deutschland</span>
       </div>
     </div>
 
