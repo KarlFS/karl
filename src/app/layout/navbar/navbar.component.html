@@ -17,8 +17,8 @@
       <a class="navbar__link" href="#skills"    (click)="closeMenu()">{{ 'nav.skills'    | translate }}</a>
       <a class="navbar__link" href="#contact" (click)="closeMenu()">{{ 'nav.contact' | translate }}</a>
       <div class="navbar__legal">
-        <button class="navbar__link navbar__link--legal" (click)="navigateLegal('/impressum')">{{ 'footer.impressum' | translate }}</button>
-        <button class="navbar__link navbar__link--legal" (click)="navigateLegal('/datenschutz')">{{ 'footer.datenschutz' | translate }}</button>
+        <button class="navbar__link navbar__link--legal" [routerLink]="'/impressum'" (click)="closeMenu()">{{ 'footer.impressum' | translate }}</button>
+        <button class="navbar__link navbar__link--legal" [routerLink]="'/datenschutz'" (click)="closeMenu()">{{ 'footer.datenschutz' | translate }}</button>
       </div>
 
       <div class="navbar__lang">
