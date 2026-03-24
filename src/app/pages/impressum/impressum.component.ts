@@ -13,6 +13,7 @@ import { ObfuscatedComponent } from '../../shared/components/obfuscated/obfuscat
   styleUrl: './impressum.component.scss',
 })
 export class ImpressumComponent {
+  protected readonly vatCodes     = [68,69,50,57,49,55,52,53,55,57,48];
   protected readonly nameCodes    = [75,97,114,108,32,83,99,104,111,108,122,101];
   protected readonly streetCodes  = [84,117,99,104,109,97,99,104,101,114,115,116,114,46,32,51,48];
   protected readonly cityCodes    = [48,50,54,50,53,32,66,97,117,116,122,101,110];
