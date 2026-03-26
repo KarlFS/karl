@@ -47,3 +47,46 @@ Angular 19 application using standalone components, signals, and the modern appl
 - Production builds use file replacement for environment files
 - Development builds include source maps and skip optimization
 - Bundle size budgets: initial max 1MB, component styles max 4KB
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── app.component.*          # Root component
+│   ├── app.routes.ts            # Route definitions (/, /impressum, /datenschutz)
+│   ├── core/
+│   │   └── services/
+│   │       └── translation.service.ts   # i18n service (DE/HSB/EN)
+│   ├── data/
+│   │   ├── service-offerings.data.ts    # Static data for offerings section
+│   │   └── skill-groups.data.ts         # Static data for skills section
+│   ├── layout/
+│   │   ├── footer/                      # Site footer
+│   │   └── navbar/                      # Navigation bar with language switcher
+│   ├── models/
+│   │   ├── language.model.ts
+│   │   ├── service-offering.model.ts
+│   │   └── skill-group.model.ts
+│   ├── pages/
+│   │   ├── datenschutz/                 # Privacy policy page
+│   │   ├── home/                        # Home page (composes sections)
+│   │   └── impressum/                   # Legal notice page
+│   ├── sections/                        # Home page sections
+│   │   ├── about/
+│   │   ├── contact/
+│   │   ├── offerings/
+│   │   ├── skills/
+│   │   └── title/
+│   └── shared/
+│       ├── components/
+│       │   ├── k-icon/                  # Custom icon component
+│       │   └── obfuscated/              # Anti-scraping obfuscation component (email, VAT ID)
+│       └── pipes/
+│           └── translate.pipe.ts        # Translation pipe
+├── environments/
+│   ├── environment.ts
+│   └── environment.prod.ts
+├── styles.scss                          # Global styles
+└── main.ts
+```
